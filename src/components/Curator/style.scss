@@ -1,0 +1,53 @@
+.curator{
+
+    &__container{
+        width: 100%;
+        background-color: rgba(0,102,193,.51);
+        border-radius: 1rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 4rem;
+        margin-top: 4rem;
+    }
+    &__photo{
+        border: 1px solid var(--lighGray);
+        border-radius: 50%;
+        height: 85px;
+        width: 85px;
+        margin: 2rem;
+        overflow: hidden;
+    }
+    &__detalls{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 4rem 0;
+        width: 40%;
+
+        div{
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 1rem;
+            h3{
+                font-size: 2rem;
+                line-height: 2rem;
+                margin: 0;
+            }
+            h6{
+                color: var(--darkGray);
+                font-size: 1.5rem;
+                line-height: 2rem;
+                margin: 0;
+            }
+
+        }
+        p{
+            width: 100%;
+            font-size: 1.5rem;
+        }
+    }
+}
